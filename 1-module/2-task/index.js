@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Эту функцию трогать не нужно
  */
@@ -11,7 +12,7 @@ function print(text) {
  */
 function isValid(name) {
 
-  if(name.length <= 4 || name === '' || name.indexOf(' ') !== -1){
+  if (name.length <= 4 || name === '' || name.indexOf(' ') !== -1) {
     return false;
   }
   return true;

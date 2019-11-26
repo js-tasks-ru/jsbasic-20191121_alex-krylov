@@ -6,12 +6,11 @@
  */
 
 
- var x = prompt('Ввести число');
- var n = prompt('Ввести степень');
+let x = prompt('Ввести число');
+let n = prompt('Ввести степень');
 function pow(m, n) {
-
-    var x = result;
-    result = pow(m, n);
-    alert(result);
+  let x = result;
+  result = pow(m, n);
+  alert(result);
 
 }
