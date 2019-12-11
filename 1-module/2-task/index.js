@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 /**
  * Эту функцию трогать не нужно
  */
@@ -10,6 +11,12 @@ function print(text) {
  * чтобы функция sayHello работала корректно
  */
 function isValid(name) {
+
+  if (!name || name.indexOf(' ') !== -1 || name === '' || name.length < 4) {
+    return false;
+  }
+
+  return true;
 }
 
 function sayHello() {
