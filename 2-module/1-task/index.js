@@ -5,21 +5,21 @@
  */
 
 let obj = {
-    test: 1
+  test: 1
 };
 
 
 function clone(obj) {
 
-    let copy ={
+  let copy = {
 
-    };
+  };
 
-    for (let key in obj){
-        copy[key] = obj[key];
-    }
+  for (let key in obj) {
+    copy[key] = obj[key];
+  }
 
-    return copy;
+  return copy;
 
 }
 
